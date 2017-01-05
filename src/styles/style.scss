@@ -1,13 +1,89 @@
+@import "../../node_modules/font-awesome/scss/font-awesome.scss";
+@import "../../node_modules/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+
 * {
 	box-sizing: border-box;
 }
-
+img{
+	display: block;
+	width: 100%;
+}
 body{
 	font-family: Helvetica, Arial, sans-serif;
+
 }
 
-h1 {
-	font-size: 300px;
-	text-align: center;
-	color: fuchsia;
+#app-container{
+	width: 100%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+	a{
+		color: #FFF;
+	}
+}
+
+.main-container{
+	height: 50vh;
+	width: 100%;
+	background: url('../images/images (1).jpeg')center center no-repeat fixed;
+	background-size: cover;
+	h1, p{
+	color: #FFF;
+	font-family: 'Sanchez', 'Baskervilles', serif;
+	text-shadow: 1px 1px #000;
+	}
+}
+
+
+.intro-container{
+	color: #FFF;
+}
+.technical-container{
+	background: url('../images/water (2).jpeg') center center no-repeat fixed;
+	background-size: cover;
+	width: 100%;
+	color: #FFF;
+}
+.html-image{
+	width: 3%;
+}
+.css-image{
+	width: 3%;
+}
+.javascript-image{
+	width: 3%;
+}
+.react-image{
+	width: 3%;
+}
+.backbone-image{
+	width: 3%;
+}
+.redux-image{
+	width: 3%;
+}
+.education-container{
+	background: url('../images/images (1).jpeg')center center no-repeat fixed;
+	background-size: cover;
+	width: 100%;
+	color: #FFF;
+}
+.experience-container{
+	background: url('../images/water (2).jpeg') center center no-repeat fixed;
+	background-size: cover;
+	width: 100%;
+	color: #FFF;
+}
+.accomplishment-container{
+	background: url('../images/images (1).jpeg')center center no-repeat fixed;
+	background-size: cover;
+	width: 100%;
+	color: #FFF;
+}
+.footer-container{
+	color: #FFF;
+	text-shadow: 1px 1px black;
+	background-color: #A4B8E9;
 }
