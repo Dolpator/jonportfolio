@@ -53,27 +53,43 @@ const SkillsPage = React.createClass({
 
             <div className = "container education-container">
                <h1 className ="text-center">Education</h1>
-               <p><strong>The Iron Yard</strong> - Charleston, South Carolina</p>
-               <p>Front-End Engineering</p>
-               <p><strong>Interactive College of Technology</strong> - Decator, Georgia</p>
-               <p>Computer Service Repair</p>
-               <p><strong>Trident Technical College</strong> - Core Studies in Information Systems</p>
-               <p><strong>St. Mary's Technical Institute</strong> - Hollywood, Maryland</p>
-               <p>Electronics Technology</p>
+               <div className ="row">
+                  <div className = "col-xs-12 col-md-4 text-center">
+                     <img className = "ironyard" src = "../images/theironyard.png" />
+                     <p><strong>The Iron Yard</strong> - Charleston, South Carolina: Front-End Engineering</p>
+                  </div>
+                  <div className ="col-xs-12 col-md-4 text-center">
+                     <img className ="ict" src = "../images/InterActColl.jpg" />
+                     <p><strong>Interactive College of Technology</strong> - Decator, Georgia: Computer Service Repair</p>
+                  </div>
+                  <div className ="col-xs-12 col-md-4 text-center">
+                     <img className ="ttc" src = "../images/ttc.jpg" />
+                     <p><strong>Trident Technical College</strong> - Core Studies in Information Systems</p>
+                  </div>
+               </div>
             </div>
 
-            <div className = "container experience-container">
+            <div className = "container experience-container ">
                <h1 className = "text-center">Experience</h1>
-               <p><strong>BAE Systems</strong> - Electronics Technician III</p>
-               <p>Supported Government Projects in areas of integration and installation of communication equipment and computer systems with expertise in fabrication of MIL-STD Fiber Optic cables, SPAWAR DATA Center Installation, and Quality Assurance inspections for cable assemblies.  Also recertified previous fiber optic technicians in accordance with MIL-STD 2042.</p>
-               <p><strong>SpaceMakers</strong> - Closet Installation Technician</p>
-               <p>Design, integrated, and installed proprietary closet organization systems in new construction, owner-occupied, and commercial properties.</p>
-               <p><strong>Avery Dennison/Stimsonite Corporation</strong> - Lead Foreman/Technical Service Rep/Electronics Technician</p>
-               <p>Communicated operational issues and changes to supervisor on a regular basis, manufactured thermoplastic application equipment for DOT, supervision of several employees in technical areas of electrical, pneumatic, hydraulic, gas systems, welding, and assembly.</p>
-               <p><strong>Tracor Applied Sciences</strong> - Electronic Nechanic/Assembler II</p>
-               <p>Installation of various communication and computer systems, fabrication of specific electrical components and multi-conductor cable assemblies.</p>
+                  <div className ="row">
+                     <div className = "col-xs-12 col-md-4 text-center">
+                        <img className ="baesystems thumbnail" src = "../images/bae.jpeg" />
+                        <p><strong>BAE Systems</strong> - Electronics Technician III</p>
+                        <p>Supported Government Projects in areas of integration and installation of communication equipment and computer systems with expertise in fabrication of MIL-STD Fiber Optic cables, SPAWAR DATA Center Installation, and Quality Assurance inspections for cable assemblies.  Also recertified previous fiber optic technicians in accordance with MIL-STD 2042.</p>
+                     </div>
+                  <div className = "col-xs-12 col-md-4 text-center">
+                     <img className = "spacemaker thumbnail" src = "../images/spacemakers.jpg" />
+                     <p><strong>SpaceMakers</strong> - Closet Installation Technician</p>
+                     <p>Design, integrated, and installed proprietary closet organization systems in new construction, owner-occupied, and commercial properties.</p>
+                  </div>
+                  <div className = "col-xs-12 col-md-4 text-center">
+                     <img className = "avery thumbnail" src = "../images/avery2.png" />
+                     <p><strong>Avery Dennison/Stimsonite Corporation</strong> - Lead Foreman/Technical Service Rep/Electronics Technician</p>
+                     <p>Communicated operational issues and changes to supervisor on a regular basis, manufactured thermoplastic application equipment for DOT, supervision of several employees in technical areas of electrical, pneumatic, hydraulic, gas systems, welding, and assembly.</p>
+                  </div>
+               </div>
             </div>
-            
+
             <div className = "container accomplishment-container">
                <h1 className = "text-center">Accomplishments</h1>
                <p><strong>Bronze Chairman Award</strong> - Fiber Optic Cost Saving Processes (was nominated for Silver), received Pioneer Award for same efforts.</p>
