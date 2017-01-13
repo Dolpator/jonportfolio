@@ -53,36 +53,61 @@ const SkillsPage = React.createClass({
 
             <div className = "container education-container">
                <h1 className ="text-center">Education</h1>
-               <p><strong>The Iron Yard</strong> - Charleston, South Carolina</p>
-               <p>Front-End Engineering</p>
-               <p><strong>Interactive College of Technology</strong> - Decator, Georgia</p>
-               <p>Computer Service Repair</p>
-               <p><strong>Trident Technical College</strong> - Core Studies in Information Systems</p>
-               <p><strong>St. Mary's Technical Institute</strong> - Hollywood, Maryland</p>
-               <p>Electronics Technology</p>
+               <div className ="row">
+                  <div className = "col-xs-12 col-md-4 text-center">
+                     <img className = "ironyard" src = "../images/theironyard.png" />
+                     <p><strong>The Iron Yard</strong> - Charleston, South Carolina: Front-End Engineering</p>
+                  </div>
+                  <div className ="col-xs-12 col-md-4 text-center">
+                     <img className ="ict" src = "../images/itc.jpeg" />
+                     <p><strong>Interactive College of Technology</strong> - Decator, Georgia: Computer Service Repair</p>
+                  </div>
+                  <div className ="col-xs-12 col-md-4 text-center">
+                     <img className ="ttc" src = "../images/ttc.png" />
+                     <p><strong>Trident Technical College</strong> - Core Studies in Information Systems</p>
+                  </div>
+               </div>
             </div>
 
-            <div className = "container experience-container">
+            <div className = "container experience-container ">
                <h1 className = "text-center">Experience</h1>
-               <p><strong>BAE Systems</strong> - Electronics Technician III</p>
-               <p>Supported Government Projects in areas of integration and installation of communication equipment and computer systems with expertise in fabrication of MIL-STD Fiber Optic cables, SPAWAR DATA Center Installation, and Quality Assurance inspections for cable assemblies.  Also recertified previous fiber optic technicians in accordance with MIL-STD 2042.</p>
-               <p><strong>SpaceMakers</strong> - Closet Installation Technician</p>
-               <p>Design, integrated, and installed proprietary closet organization systems in new construction, owner-occupied, and commercial properties.</p>
-               <p><strong>Avery Dennison/Stimsonite Corporation</strong> - Lead Foreman/Technical Service Rep/Electronics Technician</p>
-               <p>Communicated operational issues and changes to supervisor on a regular basis, manufactured thermoplastic application equipment for DOT, supervision of several employees in technical areas of electrical, pneumatic, hydraulic, gas systems, welding, and assembly.</p>
-               <p><strong>Tracor Applied Sciences</strong> - Electronic Nechanic/Assembler II</p>
-               <p>Installation of various communication and computer systems, fabrication of specific electrical components and multi-conductor cable assemblies.</p>
+                  <div className ="row">
+                     <div className = "col-xs-12 col-md-4 text-center">
+                        <img className ="baesystems thumbnail" src = "../images/baesystems.jpeg" />
+                        <p><strong>BAE Systems</strong> - Electronics Technician III</p>
+                        <p>Supported Government Projects in areas of integration and installation of communication equipment and computer systems with expertise in fabrication of MIL-STD Fiber Optic cables, SPAWAR DATA Center Installation, and Quality Assurance inspections for cable assemblies.  Also recertified previous fiber optic technicians in accordance with MIL-STD 2042.</p>
+                     </div>
+                  <div className = "col-xs-12 col-md-4 text-center">
+                     <img className = "spacemaker thumbnail" src = "../images/spacemakers.jpg" />
+                     <p><strong>SpaceMakers</strong> - Closet Installation Technician</p>
+                     <p>Design, integrated, and installed proprietary closet organization systems in new construction, owner-occupied, and commercial properties.</p>
+                  </div>
+                  <div className = "col-xs-12 col-md-4 text-center">
+                     <img className = "avery thumbnail" src = "../images/avery.png" />
+                     <p><strong>Avery Dennison/Stimsonite Corporation</strong> - Lead Foreman/Technical Service Rep/Electronics Technician</p>
+                     <p>Communicated operational issues and changes to supervisor on a regular basis, manufactured thermoplastic application equipment for DOT, supervision of several employees in technical areas of electrical, pneumatic, hydraulic, gas systems, welding, and assembly.</p>
+                  </div>
+               </div>
             </div>
-            
+
             <div className = "container accomplishment-container">
-               <h1 className = "text-center">Accomplishments</h1>
-               <p><strong>Bronze Chairman Award</strong> - Fiber Optic Cost Saving Processes (was nominated for Silver), received Pioneer Award for same efforts.</p>
-               <p><strong>Bronze Chairman Award</strong> - TCF Project supporting clients and BAE for efforts in under budget and ahead of schedule.</p>
-               <p><strong>Pioneer Award</strong> - AIE3 mockup and demo for potential clients.  Worked under harsh conditions and stressful environment to provide a successful demo of project.</p>
-               <p><strong>Impact Awards</strong> - Numerous special recognition awards for various task throughout the company, nominated by peers.</p>
+               <h1 className = "text-center">Awards</h1>
+               <p><img className ="BCA thumbnail" src= "../images/BCA.jpeg" /><strong>Bronze Chairman Award</strong> - Fiber Optic Cost Saving Processes (was nominated for Silver)</p>
+               <p><img className ="BCA thumbnail" src= "../images/BCA.jpeg" /><strong>Bronze Chairman Award</strong> - TCF Project supporting clients and BAE for efforts in under budget and ahead of schedule.</p>
+               <p><img className ="BCA thumbnail" src= "../images/bae2.jpeg" /><strong>Pioneer Award</strong> - Fiber Optic Cost Saving Processes</p>
+               <p><img className ="BCA thumbnail" src= "../images/bae2.jpeg" /><strong>Pioneer Award</strong> - AIE3 mockup and demo for potential clients.  Worked under harsh conditions and stressful environment to provide a successful demo of project.</p>
+               <p><img className ="BCA thumbnail" src= "../images/bae2.jpeg" /><strong>Impact Awards</strong> - Numerous special recognition awards for various task throughout the company, nominated by peers.</p>
             </div>
 
-
+            <div className = "container volunteer-container">
+               <h1 className = "text-center">Volunteer</h1>
+               <p><img src="../images/tiykc.jpeg" /><strong>The Iron Yard Kids Coding Camp</strong> - Instructor for a 4 week code camp for kids 3rd - 6th grade using Scratch.</p>
+            </div>
+            <div className="footer-container text-center">
+               <a href="https://twitter.com/"><i className="fa fa-envelope-o fa-2x multi-icons" aria-hidden="true"></i></a>
+               <a href="https://www.instagram.com/?hl=en"><i className="fa fa-github fa-2x multi-icons" aria-hidden="true"></i></a>
+               <a href="https://www.instagram.com/?hl=en"><i className="fa fa fa-linkedin fa-2x multi-icons" aria-hidden="true"></i></a>
+            </div>
       </div>
       )
    }

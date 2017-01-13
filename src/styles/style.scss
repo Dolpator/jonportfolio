@@ -15,6 +15,8 @@ body{
 
 #app-container{
 	width: 100%;
+	background: url('../images/water (2).jpeg')center center no-repeat fixed;
+	background-size: cover;
 	height: auto;
 	margin-left: auto;
 	margin-right: auto;
@@ -29,6 +31,7 @@ body{
 	width: 100%;
 	background: url('../images/images (1).jpeg')center center no-repeat fixed;
 	background-size: cover;
+	display: inline-block;
 	h1, p{
 	color: #FFF;
 	font-family: 'Sanchez', 'Baskervilles', serif;
@@ -38,10 +41,11 @@ body{
 
 
 .intro-container{
+
 	color: #FFF;
 }
 .technical-container{
-	background: url('../images/water (2).jpeg') center center no-repeat fixed;
+	background: url('../images/water (2).jpeg')center center no-repeat fixed;
 	background-size: cover;
 	width: 100%;
 	color: #FFF;
@@ -67,20 +71,63 @@ body{
 .education-container{
 	background: url('../images/images (1).jpeg')center center no-repeat fixed;
 	background-size: cover;
-	width: 100%;
+	display: inline-block;
 	color: #FFF;
+	width: auto;
+	.ironyard, .ict, .ttc{
+		display: inline-block;
+		width: 33.33%;
+		img{
+			width: 50%;
+		}
+	}
 }
+
+
 .experience-container{
 	background: url('../images/water (2).jpeg') center center no-repeat fixed;
 	background-size: cover;
-	width: 100%;
+	display: inline-block;
+	margin-top: 10px;
+	width: auto;
 	color: #FFF;
+		img{
+			width: 35%;
+		}
+		.baesystems{
+			margin: auto;
+		}
+		.spacemaker{
+			margin: auto;
+		}
+		.avery{
+			margin: auto;
+		}
+
 }
+
 .accomplishment-container{
 	background: url('../images/images (1).jpeg')center center no-repeat fixed;
 	background-size: cover;
 	width: 100%;
 	color: #FFF;
+	display: inline-block;
+	img{
+		display: inline-block;
+		width: 10%;
+	}
+}
+.volunteer-container{
+	background: url('../images/water (2).jpeg')center center no-repeat fixed;
+	background-size: cover;
+	margin-top: 10px;
+	width: 100%;
+	color: #FFF;
+	display: inline-block;
+	img{
+		display: inline-block;
+		width: 10%;
+	}
 }
 .footer-container{
 	color: #FFF;
