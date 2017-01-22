@@ -32,6 +32,9 @@ body{
 	background: url('../images/images (1).jpeg')center center no-repeat fixed;
 	background-size: cover;
 	display: inline-block;
+	.navbar{
+		background-color: #A4B8E9;
+	}
 	h1, p{
 	color: #FFF;
 	font-family: 'Sanchez', 'Baskervilles', serif;
@@ -41,12 +44,20 @@ body{
 
 
 .intro-container{
-
 	color: #FFF;
+	img{
+		display: inline-block;
+		border-radius: 100%;
+		height: 20%;
+		width: 25%;
+
+	}
 }
+
 .technical-container{
 	background: url('../images/water (2).jpeg')center center no-repeat fixed;
 	background-size: cover;
+	display: inline-block;
 	width: 100%;
 	color: #FFF;
 }
@@ -65,7 +76,13 @@ body{
 .backbone-image{
 	width: 3%;
 }
-.redux-image{
+.flux-image{
+	width: 3%;
+}
+.fiber-image{
+	width: 3%;
+}
+.troubleshooting-image{
 	width: 3%;
 }
 .education-container{
@@ -75,6 +92,7 @@ body{
 	color: #FFF;
 	width: auto;
 	.ironyard, .ict, .ttc{
+		padding-bottom: 20px;
 		display: inline-block;
 		width: 33.33%;
 		img{
@@ -91,17 +109,13 @@ body{
 	margin-top: 10px;
 	width: auto;
 	color: #FFF;
+
 		img{
 			width: 35%;
 		}
-		.baesystems{
+		.baesystems, .spacemaker, .avery{
 			margin: auto;
-		}
-		.spacemaker{
-			margin: auto;
-		}
-		.avery{
-			margin: auto;
+
 		}
 
 }
@@ -121,6 +135,17 @@ body{
 	background: url('../images/water (2).jpeg')center center no-repeat fixed;
 	background-size: cover;
 	margin-top: 10px;
+	width: 100%;
+	color: #FFF;
+	display: inline-block;
+	img{
+		display: inline-block;
+		width: 10%;
+	}
+}
+.project-container{
+	background: url('../images/water (2).jpeg')center center no-repeat fixed;
+	background-size: cover;
 	width: 100%;
 	color: #FFF;
 	display: inline-block;
