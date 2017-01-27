@@ -51,7 +51,7 @@ const SkillsPage = React.createClass({
             </div>
                <img className = "fiber-image" src="../images/fiber.jpeg" /><p>Shipboard Fiber Optics</p>
                <div className="progress progress-striped active">
-               <div className="progress-bar progress-bar-info" style={{width: '90%'}}></div>
+               <div className="progress-bar progress-bar-info" style={{width: '100%'}}></div>
             </div>
                <img className = "troubleshooting-image" src="../images/troubleshooting.png" />
                <div className="progress progress-striped active">

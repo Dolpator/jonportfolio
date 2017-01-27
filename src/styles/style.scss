@@ -151,9 +151,19 @@ body{
 	display: inline-block;
 	img{
 		display: inline-block;
-		width: 10%;
+		border-radius: 100%;
+		width: 75%;
 	}
+	.platforms{
+		padding: 0;
+		margin: 0;
+	}
+	.platforms li{
+			list-style-type: none;
+		}
 }
+
+
 .footer-container{
 	color: #FFF;
 	text-shadow: 1px 1px black;

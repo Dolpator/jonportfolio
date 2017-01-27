@@ -5,7 +5,7 @@ import $ from 'jquery'
 
 import ProjectsPage from './projects-page.js'
 import SkillsPage from './skills-page.js'
-import Resume from './resume.js'
+// import Resume from './resume.js'
 import HomePage from './home-page.js'
 import AppController from './app-controller.js'
 
