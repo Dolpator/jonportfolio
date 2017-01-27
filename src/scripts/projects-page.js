@@ -68,7 +68,7 @@ const ProjectsPage = React.createClass({
                      <a href="https://jonexpresso.herokuapp.com/"><i className="fa fa-desktop fa-2x" aria-hidden="true"></i></a>
                   </div>
                   <div className = "col-xs-12 col-md-3 text-center">
-                     <a href = "https://joniluggit.herokuapp.com/"><img className ="iluggit thumbnail" src = "../images/iluggit Screen Shot.png" /></a>
+                     <a href = "https://joniluggit.herokuapp.com/"><img className ="iluggit thumbnail" src = "../images/Iluggit Screen Shot.png" /></a>
                      <h3>ILuggit</h3>
                      <strong>PLATFORMS USED:</strong>
                         <ul className = "platforms">
